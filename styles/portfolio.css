@@ -18,7 +18,8 @@
     width: 150px;
     border: 0;
 }
-.header{
+
+.header {
     background-color: #FFFF;
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
@@ -47,61 +48,105 @@ nav ul {
     font-weight: 800;
     font-size: 45px;
 }
+
 /* Banner Styles */
-.banner{
+.banner {
     display: flex;
     margin: 0px 200px;
     align-items: center;
 }
-.banner-title{
+
+.banner-title {
     font-weight: 700;
     font-size: 85px;
 }
-.banner-sub-title{
+
+.banner-sub-title {
     font-weight: 600;
-font-size: 45px;
-margin-bottom: 20px;
+    font-size: 45px;
+    margin-bottom: 20px;
 }
-.banner-description{
+
+.banner-description {
     font-weight: 400;
-font-size: 18px;
-color: #757575;
-margin-bottom: 30px;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
 }
+
 /* Main Style */
-Main{
+Main {
     max-width: 1140px;
     margin: 0 auto;
 }
+.section-title{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
 /* About Section Style */
-.about-me{
+.about-me {
     text-align: center;
     margin-top: 130px;
     background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
 }
-.section-title{
-    margin-bottom: 30px;
-    font-size: 35px;
-}
-.section-description{
-    
+
+
+.section-description {
+
     font-size: 18px;
     margin-bottom: 30px;
 }
-.info-container{
+
+.info-container {
     display: flex;
     justify-content: space-around;
 }
-.info-title{
+
+.info-title {
     font-size: 20px;
     color: #757575;
     font-weight: 400;
     margin-bottom: 10px;
 }
-.info-description{
+
+.info-description {
     font-size: 20px;
     color: #474747;
     font-weight: 700;
 }
+
+/* What i do styles */
+
+
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skills {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    margin-top: 30px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+/* resume styles */
